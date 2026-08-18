@@ -1,5 +1,5 @@
 {
-  "base": "https://raw.githubusercontent.com/Eggplant4363/HomeDesktopPlugins/main/market/",
+  "base": "https://cdn.jsdelivr.net/gh/Eggplant4363/HomeDesktopPlugins@main/market/",
   "plugins": [
     {
       "id": "dev.homedesktop.demo-timer",
