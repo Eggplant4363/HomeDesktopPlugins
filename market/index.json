@@ -20,6 +20,16 @@
       "file": "demo-cmd-2.0.0.zip",
       "size": 924,
       "description": "图标插件示例：设置项 + 点击执行命令"
+    },
+    {
+      "id": "dev.homedesktop.demo-notepad",
+      "name": "记事本（演示）",
+      "version": "0.2.0",
+      "pluginType": "icon",
+      "emoji": "📝",
+      "file": "demo-notepad-0.2.0.zip",
+      "size": 333,
+      "description": "图标插件示例：点击启动记事本"
     }
   ]
 }
