@@ -1,0 +1,25 @@
+{
+  "base": "https://raw.githubusercontent.com/Eggplant4363/HomeDesktopPlugins/main/market/",
+  "plugins": [
+    {
+      "id": "dev.homedesktop.demo-timer",
+      "name": "倒计时（示例）",
+      "version": "1.0.0",
+      "pluginType": "widget",
+      "emoji": "⏱️",
+      "file": "demo-timer-1.0.0.zip",
+      "size": 2640,
+      "description": "倒计时小组件：到点弹系统通知"
+    },
+    {
+      "id": "dev.homedesktop.demo-installed",
+      "name": "安装示例（打开 GitHub）",
+      "version": "2.0.0",
+      "pluginType": "icon",
+      "emoji": "🧰",
+      "file": "demo-cmd-2.0.0.zip",
+      "size": 924,
+      "description": "图标插件示例：设置项 + 点击执行命令"
+    }
+  ]
+}
