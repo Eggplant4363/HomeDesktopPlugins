@@ -31,8 +31,15 @@ README.md
 
 3. 提交推送 `main` 分支 → 应用内点「🔄 刷新列表」即可看到
 
-> 注意：`base` 字段是下载基础 URL（`https://cdn.jsdelivr.net/gh/Eggplant4363/HomeDesktopPlugins@main/market/`），新增插件不需要改它。
+> 注意：`base` 字段是下载基础 URL（`https://cdn.jsdelivr.net/gh/Eggplant4363/HomeDesktopPlugins@3d25224121bf26ba8ce8616f39a851acb2cdb443/market/`），新增插件不需要改它。
 
 ## 插件开发规范
 
 见主项目 [HomeDesktop](https://github.com/Eggplant4363/HomeDesktop) 的 `docs/PLUGIN_API.md`。
+
+## 更新插件后如何让应用看到
+
+jsDelivr 的 `@main` 分支解析有 12 小时缓存，新增插件后需要**改用最新 commit SHA**：
+1. 推送插件包 + 更新 index.json 后，获取最新 commit：`git rev-parse HEAD`
+2. 把本 README 与 `market/index.json` 里的 `base` 换成新 SHA
+3. 同时更新 HomeDesktop 应用 `src/components/MarketList.svelte` 的 `DEFAULT_INDEX_URL` 为新 SHA URL
