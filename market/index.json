@@ -2,6 +2,66 @@
   "base": "https://cdn.jsdelivr.net/gh/Eggplant4363/HomeDesktopPlugins@main/market/",
   "plugins": [
     {
+      "id": "dev.homedesktop.clock",
+      "name": "时钟",
+      "version": "0.2.0",
+      "pluginType": "widget",
+      "emoji": "🕐",
+      "file": "clock-0.2.0.zip",
+      "size": 377,
+      "description": "时钟小组件：时间 + 日期，可开关秒/日期"
+    },
+    {
+      "id": "dev.homedesktop.weather",
+      "name": "天气",
+      "version": "0.2.0",
+      "pluginType": "widget",
+      "emoji": "🌤️",
+      "file": "weather-0.2.0.zip",
+      "size": 454,
+      "description": "天气小组件：城市温度与天气（可多实例）"
+    },
+    {
+      "id": "dev.homedesktop.calendar",
+      "name": "日历",
+      "version": "1.0.0",
+      "pluginType": "widget",
+      "emoji": "📅",
+      "file": "calendar-1.0.0.zip",
+      "size": 277,
+      "description": "日历小组件：月份网格 + 今日高亮"
+    },
+    {
+      "id": "dev.homedesktop.sysmonitor",
+      "name": "系统监控",
+      "version": "1.0.0",
+      "pluginType": "widget",
+      "emoji": "📊",
+      "file": "sysmonitor-1.0.0.zip",
+      "size": 288,
+      "description": "系统监控小组件：CPU 与内存占用"
+    },
+    {
+      "id": "dev.homedesktop.todo",
+      "name": "待办清单",
+      "version": "1.0.0",
+      "pluginType": "widget",
+      "emoji": "✅",
+      "file": "todo-1.0.0.zip",
+      "size": 279,
+      "description": "待办清单小组件：实例内记录待办事项"
+    },
+    {
+      "id": "dev.homedesktop.system-apps",
+      "name": "系统应用",
+      "version": "1.0.0",
+      "pluginType": "icon",
+      "emoji": "📱",
+      "file": "system-apps-1.0.0.zip",
+      "size": 284,
+      "description": "系统应用面板：扫描已安装应用，点击启动"
+    },
+    {
       "id": "dev.homedesktop.demo-timer",
       "name": "倒计时（示例）",
       "version": "1.0.0",
@@ -12,16 +72,6 @@
       "description": "倒计时小组件：到点弹系统通知"
     },
     {
-      "id": "dev.homedesktop.demo-installed",
-      "name": "安装示例（打开 GitHub）",
-      "version": "2.0.0",
-      "pluginType": "icon",
-      "emoji": "🧰",
-      "file": "demo-cmd-2.0.0.zip",
-      "size": 924,
-      "description": "图标插件示例：设置项 + 点击执行命令"
-    },
-    {
       "id": "dev.homedesktop.demo-notepad",
       "name": "记事本（演示）",
       "version": "0.2.0",
@@ -30,6 +80,26 @@
       "file": "demo-notepad-0.2.0.zip",
       "size": 333,
       "description": "图标插件示例：点击启动记事本"
+    },
+    {
+      "id": "dev.homedesktop.demo-web",
+      "name": "打开 GitHub（演示）",
+      "version": "0.2.0",
+      "pluginType": "icon",
+      "emoji": "🌐",
+      "file": "demo-web-0.2.0.zip",
+      "size": 323,
+      "description": "图标插件示例：点击打开 GitHub"
+    },
+    {
+      "id": "dev.homedesktop.demo-installed",
+      "name": "安装示例（打开 GitHub）",
+      "version": "2.0.0",
+      "pluginType": "icon",
+      "emoji": "🧰",
+      "file": "demo-cmd-2.0.0.zip",
+      "size": 924,
+      "description": "图标插件示例：设置项 + 点击执行命令"
     }
   ]
 }
