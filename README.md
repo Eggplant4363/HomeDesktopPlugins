@@ -31,7 +31,7 @@ README.md
 
 3. 提交推送 `main` 分支 → 应用内点「🔄 刷新列表」即可看到
 
-> 注意：`base` 字段是下载基础 URL（`https://cdn.jsdelivr.net/gh/Eggplant4363/HomeDesktopPlugins@76c97816ee81c34df0f81da2a8c2d43affd41888/market/`），新增插件不需要改它。
+> 注意：`base` 字段是下载基础 URL（`https://cdn.jsdelivr.net/gh/Eggplant4363/HomeDesktopPlugins@7d8e3b5f4573d412710df9b14c3dd6870bae6fe9/market/`），新增插件不需要改它。
 
 ## 插件开发规范
 

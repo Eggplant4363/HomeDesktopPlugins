@@ -1,5 +1,5 @@
 {
-  "base": "https://cdn.jsdelivr.net/gh/Eggplant4363/HomeDesktopPlugins@76c97816ee81c34df0f81da2a8c2d43affd41888/market/",
+  "base": "https://cdn.jsdelivr.net/gh/Eggplant4363/HomeDesktopPlugins@7d8e3b5f4573d412710df9b14c3dd6870bae6fe9/market/",
   "plugins": [
     {
       "id": "dev.homedesktop.clock",
