@@ -62,6 +62,16 @@
       "description": "系统应用面板：扫描已安装应用，点击启动"
     },
     {
+      "id": "dev.homedesktop.music",
+      "name": "音乐控制",
+      "version": "0.1.0",
+      "pluginType": "widget",
+      "emoji": "🎵",
+      "file": "music-0.1.0.zip",
+      "size": 300,
+      "description": "音乐控制小组件（仅 Windows）：显示当前播放的音乐（封面/标题/歌手）+ 上一曲/下一曲/播放暂停 + 歌词"
+    },
+    {
       "id": "dev.homedesktop.web-shortcut",
       "name": "网页（自定义网址）",
       "version": "1.0.0",
